@@ -10,7 +10,7 @@ except ImportError:
 from Actor import PlayerActor
 
 ACTOR_NUM = 100
-ADVANTAGE_NUM = 40
+ADVANTAGE_NUM = 200
 
 SQ_FIELD_WIDTH = 10
 R_RESTRICT = 5
@@ -27,6 +27,19 @@ counter = 0
 survive_num = []
 
 fig, ax = plt.subplots(1,2,figsize=(20,8))
+
+TIMES_PER_STEP = 50
+DROPPING_TIME = 10
+
+def Area(t):
+    step = t // TIMES_PER_STEP
+    current_area = (0.8) ** step * 25 * np.pi
+    remainder = t % TIMES_PER_STEP
+    if remainder > (TIMES_PER_STEP - DROPPING_TIME):
+        next_area = (0.8) ** (step + 1) * 25 * np.pi
+        return current_area + (next_area - current_area) * (remainder - (TIMES_PER_STEP - DROPPING_TIME)) / DROPPING_TIME
+
+    return current_area
 
 def massecre():
     global actor_list, killing_list
@@ -50,11 +63,13 @@ def massecre():
 
     actor_list = list(compress(actor_list, alive))
 
-    
+
 
 
 def render(frame):
     global R_RESTRICT, counter, actor_list, survive_num, advantage_points_met
+
+    R_RESTRICT = np.sqrt(Area(counter) / np.pi)
 
     ax[0].cla()
     ax[1].cla()
@@ -95,9 +110,9 @@ def render(frame):
     texts = list(map(lambda x: '{} killed {}'.format(x[0],x[1]), killing_list))
     ax[1].text(220,80, ('\n').join(texts))
 
-    if (counter+1) % 50 == 0:
-        R_RESTRICT *= 0.8
-    
+    #if (counter+1) % 50 == 0:
+    #    R_RESTRICT *= 0.8
+
 
 if __name__ == "__main__":
     ani = FuncAnimation(fig, render, frames=23)
