@@ -10,7 +10,7 @@ except ImportError:
 from Actor import PlayerActor
 
 ACTOR_NUM = 100
-ADVANTAGE_NUM = 200
+ADVANTAGE_NUM = 100
 
 SQ_FIELD_WIDTH = 10
 R_RESTRICT = 5
@@ -115,5 +115,6 @@ def render(frame):
 
 
 if __name__ == "__main__":
-    ani = FuncAnimation(fig, render, frames=23)
-    plt.show()
+    ani = FuncAnimation(fig, render, frames=23, interval=300)
+    ani.save('anim.gif',writer='imagemagick')
+    # plt.show()
