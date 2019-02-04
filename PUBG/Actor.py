@@ -37,7 +37,7 @@ class PlayerActor(object):
                 self.dx = vector_to_advantage[idx] / dist_to_advantange[idx]
                 self.heading_twd = advantage_points_filter[idx]
             elif np.linalg.norm(self.heading_twd) > r:
-                print('Dont go')
+                #print('Dont go')
                 self.heading_twd = None
 
         self.pos += self.dx * self.speed
