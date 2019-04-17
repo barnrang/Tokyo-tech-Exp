@@ -115,6 +115,6 @@ def render(frame):
 
 
 if __name__ == "__main__":
-    ani = FuncAnimation(fig, render, frames=23, interval=300)
-    ani.save('anim.gif',writer='imagemagick')
-    # plt.show()
+    ani = FuncAnimation(fig, render, frames=300)
+    # ani.save('anim.gif',writer='imagemagick')
+    plt.show()
