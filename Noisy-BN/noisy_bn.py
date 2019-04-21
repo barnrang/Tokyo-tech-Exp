@@ -5,6 +5,7 @@ class NoisyBatchNormalization(tf.keras.layers.BatchNormalization):
 
     def __init__(self, alpha=0.01, *args, **kwargs):
         tf.keras.layers.BatchNormalization.__init__(self, *args, **kwargs)
+        self.alpha = alpha
 
     def call(self, inputs, training=None):
         input_shape = tf.keras.backend.int_shape(inputs)
@@ -26,16 +27,19 @@ class NoisyBatchNormalization(tf.keras.layers.BatchNormalization):
         if training:
             mean, var = tf.nn.moments(inputs,axes=reduction_axes)
             self.moving_mean.assign(momentum * self.moving_mean + (1 - momentum) * mean)
-            self.var.assign(momentum * self.moving_var + (1 - momentum) * var)
+            self.moving_variance.assign(momentum * self.moving_var + (1 - momentum) * var)
         else:
-            mean, var = self.moving_mean, self.moving_var
+            mean, var = self.moving_mean, self.moving_variance
 
         mean = broadcast_mean_var(mean, ndim)
         var = broadcast_mean_var(var, ndim)
         norm = (inputs - mean) / tf.sqrt(var + self.epsilon)
         noise = tf.random.normal(input_shape)
-        norm_noise = norm + alpha * noise
-
+        
+        if training:
+            norm_noise = norm + self.alpha * noise
+        else:
+            norm_noise = norm
 
         return self.gamma * norm_noise + self.beta
 
