@@ -38,12 +38,12 @@ class NoisyBatchNormalization(tf.keras.layers.BatchNormalization):
 
         def mean_var_train():
             mean, var = tf.nn.moments(inputs,axes=reduction_axes)
-            self.moving_mean.assign(self.momentum * self.moving_mean + (1. - self.momentum) * mean)
-            self.moving_variance.assign(self.momentum * self.moving_variance + (1. - self.momentum) * var)
             return [mean, var]
-
+        
         mean, var = tf_utils.smart_cond(training, mean_var_train, mean_var_eval)
-
+        
+        self.moving_mean.assign(self.momentum * self.moving_mean + (1. - self.momentum) * mean)
+        self.moving_variance.assign(self.momentum * self.moving_variance + (1. - self.momentum) * var)
 
         mean = broadcast_mean_var(mean, ndim)
         var = broadcast_mean_var(var, ndim)
