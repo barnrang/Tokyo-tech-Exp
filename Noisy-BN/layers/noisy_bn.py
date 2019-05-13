@@ -5,9 +5,10 @@ import numpy as np
 
 class NoisyBatchNormalization(tf.keras.layers.BatchNormalization):
 
-    def __init__(self, alpha=0.01, *args, **kwargs):
+    def __init__(self, alpha=0.01, p=0.25, *args, **kwargs):
         tf.keras.layers.BatchNormalization.__init__(self, *args, **kwargs)
         self.alpha = alpha
+        self.p = p
 
     def call(self, inputs, training=None, alpha=None):
         if training is None:
@@ -51,17 +52,18 @@ class NoisyBatchNormalization(tf.keras.layers.BatchNormalization):
         # norm = tf.cast((inputs - mean), tf.float64) / tf.sqrt(tf.cast(var + self.epsilon, tf.float64))
         norm = (inputs - mean) / tf.sqrt(var + self.epsilon)
         noise = tf.random.normal(tf.shape(inputs))
+        mask = tf.cast(tf.random.uniform(tf.shape(inputs)) < self.p, tf.float32)
         # norm = tf.cast(norm, tf.float32)
         
         if alpha is None:
             norm_noise = tf_utils.smart_cond(
                     training,
-                    lambda: norm + self.alpha * noise,
+                    lambda: norm + self.alpha * noise * mask,
                     lambda: norm
                 )
         else:
 
-            norm_noise = norm + alpha * noise
+            norm_noise = norm + alpha * noise * mask
 
         return self.gamma * norm_noise + self.beta 
 
