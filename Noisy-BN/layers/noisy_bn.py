@@ -67,3 +67,35 @@ class NoisyBatchNormalization(tf.keras.layers.BatchNormalization):
 
         return self.gamma * norm_noise + self.beta 
 
+
+
+class BetterNoisyBatchNormalization(tf.keras.layers.BatchNormalization):
+
+    def __init__(self, alpha=0.01, p=0.25, *args, **kwargs):
+        tf.keras.layers.BatchNormalization.__init__(self, *args, **kwargs)
+        self.alpha = alpha
+        self.p = p
+
+    def call(self, inputs, training=None, alpha=None, p=None):
+        normal_out = super().call(inputs, training)
+
+        def inject_noise(inp):
+            noise = tf.random.normal(tf.shape(inputs))
+            if p is None:
+                mask = tf.cast(tf.random.uniform(tf.shape(inputs)) < self.p, tf.float32)
+            else:
+                mask = tf.cast(tf.random.uniform(tf.shape(inputs)) < p, tf.float32)
+
+            return noise * mask
+
+        if alpha is None:
+            output = tf_utils.smart_cond(
+                    training,
+                    lambda: normal_out + self.alpha * self.gamma * inject_noise(normal_out),
+                    lambda: normal_out
+                )
+        else:
+            output = normal_out + alpha * self.gamma * inject_noise(normal_out)
+
+        return output
+
