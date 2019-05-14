@@ -29,3 +29,4 @@ def get_model(alpha=0., p=0.25, clear_session=True):
     ]
 
     return keras.models.Sequential(feature_layers + classify_layer)
+
