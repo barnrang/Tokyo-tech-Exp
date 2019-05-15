@@ -1,14 +1,15 @@
 import argparse
 import os
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 import pickle
 
 
-from tensorflow.compat.v1 import ConfigProto
-from tensorflow.compat.v1 import InteractiveSession
-
-config = ConfigProto()
-config.gpu_options.allow_growth = True
-session = InteractiveSession(config=config)
+#from tensorflow.compat.v1 import ConfigProto
+#from tensorflow.compat.v1 import InteractiveSession
+#
+#config = ConfigProto()
+#config.gpu_options.allow_growth = True
+#session = InteractiveSession(config=config)
 
 import tensorflow as tf
 from tensorflow import keras
@@ -78,7 +79,7 @@ def main(dataset, alpha, p, suffix, epochs):
 
     print(f'Running dataset={dataset} alpha={alpha}, p={p}, round={suffix} in {epochs} epochs')
 
-    
+
 
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
@@ -90,12 +91,12 @@ def main(dataset, alpha, p, suffix, epochs):
     tf_board = keras.callbacks.TensorBoard(log_dir=f"models/files/fashion_{alpha}_{p}_{suffix}/logs", histogram_freq=1)
     callbacks = [lr_reduce, checkpoint, tf_board]
 
-    tmp = model.fit_generator(train_gen, 
+    tmp = model.fit_generator(train_gen,
                         epochs=epochs,
-                        validation_data=val_gen, 
+                        validation_data=val_gen,
                         verbose=1,
                         callbacks=callbacks)
-    
+
     with open(f"models/files/fashion_{alpha}_{p}_{suffix}/history.pickle", 'wb') as f:
         pickle.dump(tmp.history, f)
 
