@@ -132,8 +132,8 @@ def main(dataset, alpha, p, suffix, epochs, **kwargs):
                         verbose=1,
                         callbacks=callbacks,
                         workers=4)
-    
-    with open(f"models/files/fashion_{alpha}_{p}_{suffix}/history.pickle", 'wb') as f:
+
+    with open(f"models/files/{dataset}_{alpha}_{p}_{suffix}/history.pickle", 'wb') as f:
         pickle.dump(tmp.history, f)
 
 if __name__ == '__main__':
