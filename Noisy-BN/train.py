@@ -142,8 +142,9 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
         pickle.dump(tmp.history, f)
 
 def cut_data(train_size, train_images, train_labels):
+    np.random.seed(0)
     if train_size is not None:
-        chosen_idx = np.random.permutation(len(train_images))[train_size]
+        chosen_idx = np.random.permutation(len(train_images))[:train_size]
         train_images = train_images[chosen_idx]
         train_labels = train_labels[chosen_idx]
     return train_images, train_labels
