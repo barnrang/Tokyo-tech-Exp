@@ -30,3 +30,17 @@ def get_model(alpha=0., p=0.25, clear_session=True):
 
     return keras.models.Sequential(feature_layers + classify_layer)
 
+def get_small_model(alpha=0., p=0.25, clear_session=True):
+    feature_layers = [
+        keras.layers.Conv2D(64,(2,2),padding='valid',activation='relu',input_shape=(28,28,1)),
+        BetterNoisyBatchNormalization(alpha,p),
+        keras.layers.Flatten()
+    ]
+
+    classify_layer = [
+        keras.layers.Dense(128,activation='relu'),
+        BetterNoisyBatchNormalization(alpha,p), 
+        keras.layers.Dense(10,activation='softmax')
+    ]
+
+    return keras.models.Sequential(feature_layers + classify_layer)

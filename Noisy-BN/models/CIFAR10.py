@@ -15,6 +15,7 @@ sys.path.append(HOME_PATH)
 
 import warnings
 
+from tensorflow import keras
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Dropout, Activation
 from tensorflow.keras.layers import MaxPooling2D, GlobalAveragePooling2D
@@ -38,6 +39,21 @@ TH_WEIGHTS_PATH_NO_TOP = ('https://github.com/titu1994/Wide-Residual-Networks/re
 TF_WEIGHTS_PATH_NO_TOP = ('https://github.com/titu1994/Wide-Residual-Networks/releases/'
                           'download/v1.2/wrn_28_8_tf_kernels_tf_dim_ordering_no_top.h5')
 
+
+def get_small_model(alpha=0., p=0.25, clear_session=True):
+    feature_layers = [
+        keras.layers.Conv2D(64,(2,2),padding='valid',activation='relu',input_shape=(32,32,3)),
+        BetterNoisyBatchNormalization(alpha,p),
+        keras.layers.Flatten()
+    ]
+
+    classify_layer = [
+        keras.layers.Dense(128,activation='relu'),
+        BetterNoisyBatchNormalization(alpha,p), 
+        keras.layers.Dense(10,activation='softmax')
+    ]
+
+    return keras.models.Sequential(feature_layers + classify_layer)
 
 def WideResidualNetwork(depth=28, width=8, dropout_rate=0.0,
                         include_top=True, weights=None,
