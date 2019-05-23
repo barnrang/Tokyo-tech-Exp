@@ -10,6 +10,8 @@ def parser():
     parser.add_argument('--epochs', dest='epochs', type=int)
     parser.add_argument('--gpu', dest='gpu', type=int, default=0)
     parser.add_argument('--train_size', dest='train_size', type=int, default=None)
+    parser.add_argument('--small', dest='small', type=bool, default=False, action='store_true')
+    parser.add_argument('--no_save', dest='no_save', type=bool, default=False, action='store_true')
 
     return parser.parse_args()
 
@@ -76,8 +78,12 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
         train_gen = train_datagen.flow(train_images, to_categorical(train_labels), batch_size=100)
         val_gen = val_datagen.flow(test_images, to_categorical(test_labels), shuffle=False, batch_size=100)
 
-        from models.fashion_mnist import get_model
-        model = get_model(alpha=alpha, p=p)
+        if kwargs.small:
+            from models.fashion_mnist import get_small_model
+            model = get_small_model(alpha=alpha, p=p)
+        else:
+            from models.fashion_mnist import get_model
+            model = get_model(alpha=alpha, p=p)
 
     if dataset == 'cifar':
         (train_images, train_labels), (test_images, test_labels) = keras.datasets.cifar10.load_data()
@@ -114,8 +120,13 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
         train_gen = train_datagen.flow(train_images, to_categorical(train_labels), batch_size=32)
         val_gen = val_datagen.flow(test_images, to_categorical(test_labels), shuffle=False, batch_size=32)
 
-        from models.CIFAR10 import WideResidualNetwork
-        model = WideResidualNetwork(depth=16, alpha=alpha, p=p)
+        if kwargs.small:
+            from models.CIFAR10 import get_small_model
+            model = get_small_model(alpha=alpha, p=p)
+        else:
+            from models.CIFAR10 import WideResidualNetwork
+            model = WideResidualNetwork(depth=16, alpha=alpha, p=p)
+
 
     print(f'Running dataset={dataset} alpha={alpha}, p={p}, round={suffix} in {epochs} epochs')
 
@@ -129,7 +140,10 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
     lr_reduce = keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.4, patience=3)
     checkpoint = keras.callbacks.ModelCheckpoint(filepath=f'models/files/{dataset}_{alpha}_{p}_{suffix}/model', monitor='val_accuracy')
     tf_board = keras.callbacks.TensorBoard(log_dir=f"models/files/{dataset}_{alpha}_{p}_{suffix}/logs", histogram_freq=1)
-    callbacks = [lr_reduce, checkpoint, tf_board]
+    callbacks = [lr_reduce, tf_board]
+
+    if not kwargs.no_save:
+        callbacks.append(checkpoint)
 
     tmp = model.fit_generator(train_gen,
                         epochs=epochs,
