@@ -10,9 +10,9 @@ def parser():
     parser.add_argument('--epochs', dest='epochs', type=int)
     parser.add_argument('--gpu', dest='gpu', type=int, default=0)
     parser.add_argument('--train_size', dest='train_size', type=int, default=None)
-    parser.add_argument('--small', dest='save', const=True, 
+    parser.add_argument('--small', dest='small', const=True, 
                         action='store_const', default=False)
-    parser.add_argument('--no_save', dest='save', const=True, 
+    parser.add_argument('--no_save', dest='small', const=True, 
                         action='store_const', default=False)
 
     return parser.parse_args()
