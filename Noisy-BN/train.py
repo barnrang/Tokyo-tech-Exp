@@ -12,7 +12,7 @@ def parser():
     parser.add_argument('--train_size', dest='train_size', type=int, default=None)
     parser.add_argument('--small', dest='small', const=True, 
                         action='store_const', default=False)
-    parser.add_argument('--no_save', dest='small', const=True, 
+    parser.add_argument('--no_save', dest='no_save', const=True, 
                         action='store_const', default=False)
 
     return parser.parse_args()
@@ -80,7 +80,7 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
         train_gen = train_datagen.flow(train_images, to_categorical(train_labels), batch_size=100)
         val_gen = val_datagen.flow(test_images, to_categorical(test_labels), shuffle=False, batch_size=100)
 
-        if kwargs.small:
+        if kwargs['small']:
             from models.fashion_mnist import get_small_model
             model = get_small_model(alpha=alpha, p=p)
         else:
@@ -122,7 +122,7 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
         train_gen = train_datagen.flow(train_images, to_categorical(train_labels), batch_size=32)
         val_gen = val_datagen.flow(test_images, to_categorical(test_labels), shuffle=False, batch_size=32)
 
-        if kwargs.small:
+        if kwargs['small']:
             from models.CIFAR10 import get_small_model
             model = get_small_model(alpha=alpha, p=p)
         else:
@@ -144,7 +144,7 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
     tf_board = keras.callbacks.TensorBoard(log_dir=f"models/files/{dataset}_{alpha}_{p}_{suffix}/logs", histogram_freq=1)
     callbacks = [lr_reduce, tf_board]
 
-    if not kwargs.no_save:
+    if not kwargs['no_save']:
         callbacks.append(checkpoint)
 
     tmp = model.fit_generator(train_gen,
