@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 files/
 train_fashion.sh
+.vscode/
+__pycache__/
