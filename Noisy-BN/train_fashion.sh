@@ -1,4 +1,4 @@
-epochs=50
+epochs=100
 round=5
 p=1.0
 train_size=1000
@@ -9,7 +9,7 @@ run_training() {
 
 for alpha in 0.1 0.03 0.01 0.003 0.001 0.0003 0.0001 0.00003 0.00001 0.
 do
-    for i in 5 6 7 8 9
+    for i in 6 7 8 9 10
     do
         run_training $alpha $i$train_size $epochs $p $i &
     done

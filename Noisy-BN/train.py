@@ -15,7 +15,7 @@ def parser():
 
 args = parser()
 
-os.environ["CUDA_VISIBLE_DEVICES"]=str(args.gpu)
+os.environ["CUDA_VISIBLE_DEVICES"]=str(args.gpu - 1)
 import pickle
 
 
