@@ -1,0 +1,1387 @@
+2019-05-27 21:29:57.389496: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:29:57.407840: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:29:57.408184: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5595ec938010 executing computations on platform Host. Devices:
+2019-05-27 21:29:57.408198: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:29:57.427640: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:29:57.575675: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:29:57.616008: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:29:57.658672: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:29:57.671193: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:29:57.673762: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56041e636370 executing computations on platform Host. Devices:
+2019-05-27 21:29:57.679206: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:29:57.681992: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55cbeeab26c0 executing computations on platform Host. Devices:
+2019-05-27 21:29:57.690003: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:29:57.698615: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:29:57.704552: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:29:57.706631: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:29:57.729348: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:29:57.730114: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:29:57.732166: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d180466570 executing computations on platform Host. Devices:
+2019-05-27 21:29:57.748805: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x561ba332de00 executing computations on platform Host. Devices:
+2019-05-27 21:29:57.831600: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:29:57.750775: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:29:57.828526: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:29:57.855354: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:29:57.871762: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:30:03.601185: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56041e6dabd0 executing computations on platform CUDA. Devices:
+2019-05-27 21:30:03.656050: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:30:03.658409: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5595ec9e7150 executing computations on platform CUDA. Devices:
+2019-05-27 21:30:03.664161: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55cbeeb38130 executing computations on platform CUDA. Devices:
+2019-05-27 21:30:03.658983: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:30:03.659043: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d1804ebff0 executing computations on platform CUDA. Devices:
+2019-05-27 21:30:03.664224: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:30:03.664234: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x561ba33d7f30 executing computations on platform CUDA. Devices:
+2019-05-27 21:30:03.672618: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:30:03.702448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:30:03.714340: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:30:03.724041: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:30:03.731021: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:30:03.741641: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:30:03.747752: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:30:03.757308: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:30:03.764313: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:30:03.774041: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:30:03.781004: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:30:03.792266: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:30:03.797656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:30:03.806091: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:30:03.814317: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:30:03.822732: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:30:03.830994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:30:03.839421: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:30:03.850610: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:30:03.856084: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:30:03.867275: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:30:03.872651: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:30:03.884242: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:30:03.889320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:30:03.900573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:30:03.905946: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:30:03.937313: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:30:03.947670: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:30:03.956021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:30:03.964349: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:30:03.972647: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:30:03.989325: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:30:04.005992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:30:04.010804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:30:04.015612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:30:04.023863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:30:04.032356: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:30:06.797851: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:30:06.952352: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:30:06.954761: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:30:07.050705: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:30:07.183082: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:30:07.258642: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:30:07.270427: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:30:07.314638: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:30:07.315295: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:30:07.637548: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:30:08.243752: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:30:08.272441: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:30:08.272477: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:30:08.282507: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:30:08.290625: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:30:08.307862: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:30:08.341677: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:30:08.355606: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:30:08.374110: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:30:08.388960: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:30:08.430902: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:30:08.478760: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:30:08.492231 140171604313856 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.117158). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:30:08.704153 140434958759680 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.201542). Check your callbacks.
+W0527 21:30:08.779987 140434958759680 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.115041). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:30:08.802918 139782122972928 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.247501). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:30:08.833531 140233382360832 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.219036). Check your callbacks.
+W0527 21:30:08.841683 139782122972928 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.148484). Check your callbacks.
+W0527 21:30:08.848033 140233382360832 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.105483). Check your callbacks.
+2019-05-27 21:30:08.917345: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:30:08.922242: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:30:08.922269: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:31:57.245560: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:31:57.263146: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:31:57.263439: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55a008adaef0 executing computations on platform Host. Devices:
+2019-05-27 21:31:57.263455: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:31:57.274020: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:31:57.432071: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:31:57.541787: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:31:57.542075: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5653ac1ad110 executing computations on platform Host. Devices:
+2019-05-27 21:31:57.542088: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:31:57.552984: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:31:57.574526: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:31:57.589850: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:31:57.590293: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55c9c6119770 executing computations on platform Host. Devices:
+2019-05-27 21:31:57.590310: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:31:57.601099: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:31:57.724493: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:31:57.725436: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:31:57.740170: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:31:57.747555: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:31:57.750815: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55860deb1330 executing computations on platform Host. Devices:
+2019-05-27 21:31:57.759247: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5645fba26400 executing computations on platform Host. Devices:
+2019-05-27 21:31:57.767077: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:31:57.775413: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:31:57.794731: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:31:57.808187: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:32:03.926286: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5653ac25be40 executing computations on platform CUDA. Devices:
+2019-05-27 21:32:03.943880: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55c9c61ad960 executing computations on platform CUDA. Devices:
+2019-05-27 21:32:03.951898: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55860df55ae0 executing computations on platform CUDA. Devices:
+2019-05-27 21:32:03.951919: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55a008b89ba0 executing computations on platform CUDA. Devices:
+2019-05-27 21:32:03.953948: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5645fbad03b0 executing computations on platform CUDA. Devices:
+2019-05-27 21:32:03.958082: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:32:03.966358: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:32:03.974726: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:32:03.983049: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:32:03.991382: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:32:04.001142: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:32:04.009171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:32:04.017854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:32:04.044185: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:32:04.058000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:32:04.065034: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:32:04.073362: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:32:04.081709: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:32:04.090041: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:32:04.098356: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:32:04.106893: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:32:04.115156: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:32:04.123501: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:32:04.131789: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:32:04.140149: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:32:04.156148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:32:04.164728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:32:04.168002: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:32:04.176193: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:32:04.184570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:32:04.190028: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:32:04.198293: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:32:04.206657: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:32:04.214965: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:32:04.223352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:32:04.231669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:32:04.239970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:32:04.248335: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:32:04.256678: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:32:04.281224: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:32:04.292824: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:32:04.301135: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:32:04.309498: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:32:04.317742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:32:04.331254: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:32:07.157246: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:32:07.215603: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:32:07.258840: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:32:07.350699: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:32:07.471753: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:32:07.498980: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:32:07.546432: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:32:07.626074: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:32:07.679838: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:32:07.962163: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:32:08.347299: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:32:08.390076: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:32:08.390131: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:32:08.456236: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:32:08.474634: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:32:08.474700: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:32:08.489207: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:32:08.527170: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:32:08.527229: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:32:08.605792 140594067535616 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.121891). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:32:08.724409 139792411744000 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.125893). Check your callbacks.
+2019-05-27 21:32:08.741170: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:32:08.757847: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:32:08.757900: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:32:08.790972 139670876923648 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.144058). Check your callbacks.
+2019-05-27 21:32:09.003021: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:32:09.015954: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:32:09.015972: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:33:56.170064: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:33:56.176218: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:33:56.176624: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d7d7584510 executing computations on platform Host. Devices:
+2019-05-27 21:33:56.176642: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:33:56.188321: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:33:56.277496: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:33:56.332665: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:33:56.333123: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56045469b900 executing computations on platform Host. Devices:
+2019-05-27 21:33:56.333142: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:33:56.339865: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:33:56.344490: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:33:56.350207: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:33:56.361182: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56155c3e25b0 executing computations on platform Host. Devices:
+2019-05-27 21:33:56.361206: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:33:56.363453: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:33:56.365761: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:33:56.372245: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:33:56.409325: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:33:56.399342: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:33:56.418559: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5562a7b7a0a0 executing computations on platform Host. Devices:
+2019-05-27 21:33:56.434987: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:33:56.446180: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:33:56.427248: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55bc91b95050 executing computations on platform Host. Devices:
+2019-05-27 21:33:56.452691: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:33:56.463144: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:34:02.481829: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d7d761dd30 executing computations on platform CUDA. Devices:
+2019-05-27 21:34:02.481870: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56045473aa10 executing computations on platform CUDA. Devices:
+2019-05-27 21:34:02.493669: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55bc91c5db00 executing computations on platform CUDA. Devices:
+2019-05-27 21:34:02.495524: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5562a7c1e2a0 executing computations on platform CUDA. Devices:
+2019-05-27 21:34:02.503673: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56155c48c2e0 executing computations on platform CUDA. Devices:
+2019-05-27 21:34:02.509388: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:34:02.518722: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:34:02.527064: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:34:02.535387: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:34:02.543718: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:34:02.553491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:34:02.561520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:34:02.569887: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:34:02.578383: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:34:02.586659: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:34:02.593682: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:34:02.602074: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:34:02.610401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:34:02.618739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:34:02.643422: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:34:02.652210: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:34:02.660544: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:34:02.668809: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:34:02.677170: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:34:02.685503: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:34:02.696640: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:34:02.704893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:34:02.713245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:34:02.721076: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:34:02.729896: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:34:02.735393: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:34:02.743727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:34:02.752041: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:34:02.760390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:34:02.768715: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:34:02.777056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:34:02.785378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:34:02.793714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:34:02.801992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:34:02.810358: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:34:02.820150: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:34:02.828203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:34:02.836476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:34:02.844936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:34:02.853352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:34:05.563724: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:34:05.812575: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:34:05.865836: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:34:05.866499: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:34:05.916531: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:34:06.146677: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:34:06.180513: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:34:06.183021: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:34:06.191496: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:34:06.481584: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:34:06.793871: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:34:06.827102: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:34:06.827159: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:34:07.179835: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:34:07.193351: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:34:07.193388: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:34:07.252219: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:34:07.267458: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:34:07.267501: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:34:07.280987: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:34:07.293466: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:34:07.293535: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:34:07.489714 140526650881792 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.112672). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:34:07.519618 140252904498944 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.111796). Check your callbacks.
+2019-05-27 21:34:07.530572: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:34:07.560053: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:34:07.560092: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:35:55.123567: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:35:55.150709: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:35:55.151097: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5575c106e500 executing computations on platform Host. Devices:
+2019-05-27 21:35:55.151119: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:35:55.176606: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:35:55.496251: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:35:55.553641: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:35:55.553981: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56253ad9f530 executing computations on platform Host. Devices:
+2019-05-27 21:35:55.553995: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:35:55.565386: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:35:55.689069: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:35:55.710048: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:35:55.710382: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55ece2aec330 executing computations on platform Host. Devices:
+2019-05-27 21:35:55.710401: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:35:55.728771: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:35:55.753179: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:35:55.768084: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:35:55.768469: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d7aa763ca0 executing computations on platform Host. Devices:
+2019-05-27 21:35:55.768487: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:35:55.779818: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:35:55.871888: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:35:55.886552: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:35:55.886859: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d21f265910 executing computations on platform Host. Devices:
+2019-05-27 21:35:55.886876: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:35:55.898101: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:36:01.980812: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55ece2b9ade0 executing computations on platform CUDA. Devices:
+2019-05-27 21:36:01.980827: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d21f3147e0 executing computations on platform CUDA. Devices:
+2019-05-27 21:36:01.981263: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d7aa80dc80 executing computations on platform CUDA. Devices:
+2019-05-27 21:36:01.981932: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56253ae4e620 executing computations on platform CUDA. Devices:
+2019-05-27 21:36:01.982010: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5575c111d450 executing computations on platform CUDA. Devices:
+2019-05-27 21:36:02.024778: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:36:02.037569: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:36:02.045905: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:36:02.054204: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:36:02.062552: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:36:02.072191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:36:02.080315: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:36:02.088710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:36:02.097317: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:36:02.105577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:36:02.112536: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:36:02.120867: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:36:02.129160: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:36:02.137548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:36:02.145885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:36:02.154399: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:36:02.162614: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:36:02.170974: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:36:02.179261: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:36:02.187747: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:36:02.200159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:36:02.207153: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:36:02.215463: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:36:02.223479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:36:02.287501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:36:02.252787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:36:02.262557: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:36:02.270877: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:36:02.279201: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:36:02.287545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:36:02.295894: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:36:02.304217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:36:02.312533: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:36:02.320863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:36:02.330532: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:36:02.337536: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:36:02.347167: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:36:02.355544: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:36:02.363840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:36:02.380890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:36:05.238487: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:36:05.306695: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:36:05.329581: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:36:05.448393: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:36:05.552690: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:36:05.580726: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:36:05.603935: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:36:05.693056: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:36:05.802763: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:36:05.994487: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:36:06.579608: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:36:06.604011: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:36:06.604054: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:36:06.605582: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:36:06.612319: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:36:06.612362: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:36:06.729705: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:36:06.770848: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:36:06.770917: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:36:06.851448: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:36:06.855312 140716406441728 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.115531). Check your callbacks.
+2019-05-27 21:36:06.876154: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:36:06.911992: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:36:06.990294 139778212759296 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.120651). Check your callbacks.
+2019-05-27 21:36:07.066168: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:36:07.103823: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:36:07.103853: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:36:07.104991 140699707635456 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.113623). Check your callbacks.
+2019-05-27 21:37:53.558953: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:37:53.565657: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:37:53.565981: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55cac6fd88f0 executing computations on platform Host. Devices:
+2019-05-27 21:37:53.565995: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:37:53.577821: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:37:53.692605: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:37:53.752378: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:37:53.752687: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d8b6295e60 executing computations on platform Host. Devices:
+2019-05-27 21:37:53.752701: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:37:53.763780: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:37:53.765581: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:37:53.785711: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:37:53.786070: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5587b10a63f0 executing computations on platform Host. Devices:
+2019-05-27 21:37:53.786085: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:37:53.800769: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:37:53.834066: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:37:53.857798: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:37:53.858132: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55bcd898d5b0 executing computations on platform Host. Devices:
+2019-05-27 21:37:53.858146: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:37:53.869122: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:37:54.023548: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:37:54.041719: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:37:54.042015: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56546486b810 executing computations on platform Host. Devices:
+2019-05-27 21:37:54.042029: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:37:54.053543: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:38:00.012462: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5587b1155220 executing computations on platform CUDA. Devices:
+2019-05-27 21:38:00.012386: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55cac70c2320 executing computations on platform CUDA. Devices:
+2019-05-27 21:38:00.038807: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d8b6344f50 executing computations on platform CUDA. Devices:
+2019-05-27 21:38:00.038851: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56546491a420 executing computations on platform CUDA. Devices:
+2019-05-27 21:38:00.038874: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55bcd8a719b0 executing computations on platform CUDA. Devices:
+2019-05-27 21:38:00.039873: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:38:00.048245: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:38:00.056576: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:38:00.064922: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:38:00.073261: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:38:00.082847: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:38:00.091395: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:38:00.099465: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:38:00.144988: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:38:00.157540: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:38:00.164625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:38:00.172922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:38:00.181286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:38:00.189640: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:38:00.197952: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:38:00.206362: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:38:00.214810: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:38:00.223112: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:38:00.231427: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:38:00.239749: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:38:00.250857: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:38:00.259241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:38:00.268283: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:38:00.275739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:38:00.287801: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:38:00.289571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:38:00.297892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:38:00.306264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:38:00.314604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:38:00.322914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:38:00.331258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:38:00.339592: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:38:00.347924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:38:00.356262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:38:00.384661: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:38:00.399292: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:38:00.407684: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:38:00.415930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:38:00.424268: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:38:00.432727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:38:03.448457: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:38:03.508272: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:38:03.527236: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:38:03.721156: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:38:03.745512: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:38:03.747465: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:38:03.769507: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:38:03.831849: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:38:04.046481: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:38:04.059059: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:38:04.670292: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:38:04.700950: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:38:04.700986: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:38:04.728072: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:38:04.734203: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:38:04.734248: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:38:04.906661: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:38:04.954050: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:38:04.954094: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:38:05.093772: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:38:05.109270: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:38:05.109308: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:38:05.259463: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:38:05.272503: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:38:05.272521: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:39:50.630895: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:39:50.646491: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:39:50.646807: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55b888ac4950 executing computations on platform Host. Devices:
+2019-05-27 21:39:50.646820: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:39:50.647692: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:39:50.664457: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:39:50.712766: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:39:50.723011: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55c36ef67700 executing computations on platform Host. Devices:
+2019-05-27 21:39:50.723029: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:39:50.742140: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:39:50.782747: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:39:50.786761: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:39:50.798778: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:39:50.812491: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55e60e1e1790 executing computations on platform Host. Devices:
+2019-05-27 21:39:50.812511: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:39:50.819850: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:39:50.823381: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:39:50.830130: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x563ff843ed00 executing computations on platform Host. Devices:
+2019-05-27 21:39:50.836433: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:39:50.845540: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:39:50.875559: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:39:50.893173: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5558b063f710 executing computations on platform Host. Devices:
+2019-05-27 21:39:50.893194: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:39:50.895177: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:39:50.904342: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:39:57.149197: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5558b06c5170 executing computations on platform CUDA. Devices:
+2019-05-27 21:39:57.149578: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:39:57.168328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:39:57.168370: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:39:57.168483: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:39:57.180719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:39:57.180752: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:39:57.180769: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:39:57.181787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:39:57.182113: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55e60e2cb0d0 executing computations on platform CUDA. Devices:
+2019-05-27 21:39:57.182189: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55b888b73890 executing computations on platform CUDA. Devices:
+2019-05-27 21:39:57.182265: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55c36f00b370 executing computations on platform CUDA. Devices:
+2019-05-27 21:39:57.182691: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x563ff84e8800 executing computations on platform CUDA. Devices:
+2019-05-27 21:39:57.211564: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:39:57.219877: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:39:57.228216: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:39:57.236524: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:39:57.246316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:39:57.254649: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:39:57.262650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:39:57.271255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:39:57.278207: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:39:57.286558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:39:57.310723: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:39:57.325376: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:39:57.333795: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:39:57.342104: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:39:57.350419: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:39:57.358752: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:39:57.369826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:39:57.378265: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:39:57.386205: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:39:57.394896: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:39:57.400341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:39:57.408669: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:39:57.417000: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:39:57.425336: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:39:57.433667: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:39:57.441963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:39:57.450340: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:39:57.458656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:39:57.468293: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:39:57.476619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:39:57.484942: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:39:57.493269: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:40:00.201094: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:40:00.295316: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:40:00.488150: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:40:00.546778: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:40:00.563718: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:40:00.574128: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:40:00.670599: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:40:00.761514: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:40:00.863173: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:40:01.037055: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:40:01.549577: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:40:01.550100: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:40:01.561251: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:40:01.569706: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:40:01.577697: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:40:01.586111: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:40:01.800550 139774618728192 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.115341). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:40:01.809169 139935394998016 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.121491). Check your callbacks.
+2019-05-27 21:40:01.849763: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:40:01.858433: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:40:01.858482: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:40:01.947843: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:40:01.961135: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:40:01.961159: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:40:02.124625: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:40:02.152826: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:40:02.152856: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:41:48.532220: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:41:48.551607: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:41:48.557962: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55a43b357ae0 executing computations on platform Host. Devices:
+2019-05-27 21:41:48.558002: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:41:48.572220: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:41:48.656680: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:41:48.673895: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:41:48.704437: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:41:48.714930: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d97ff59250 executing computations on platform Host. Devices:
+2019-05-27 21:41:48.714956: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:41:48.726946: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:41:48.730136: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:41:48.737487: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5623b3ebdc90 executing computations on platform Host. Devices:
+2019-05-27 21:41:48.737510: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:41:48.753855: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:41:48.814044: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:41:48.816019: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:41:48.829608: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:41:48.837420: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:41:48.839844: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55a812bb9120 executing computations on platform Host. Devices:
+2019-05-27 21:41:48.848344: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x555e290c71d0 executing computations on platform Host. Devices:
+2019-05-27 21:41:48.856234: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:41:48.864558: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:41:48.888172: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:41:48.902640: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:41:54.911307: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5623b3f6cc40 executing computations on platform CUDA. Devices:
+2019-05-27 21:41:54.911521: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55a43b406790 executing computations on platform CUDA. Devices:
+2019-05-27 21:41:54.917868: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55d980002b50 executing computations on platform CUDA. Devices:
+2019-05-27 21:41:54.935298: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x555e2915b470 executing computations on platform CUDA. Devices:
+2019-05-27 21:41:54.935384: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55a812c5d4e0 executing computations on platform CUDA. Devices:
+2019-05-27 21:41:54.947248: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:41:54.955606: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:41:54.963935: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:41:55.012548: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:41:55.027909: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:41:55.037427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:41:55.045758: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:41:55.053767: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:41:55.062491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:41:55.070879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:41:55.077918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:41:55.086240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:41:55.094614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:41:55.102904: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:41:55.111235: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:41:55.119725: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:41:55.128075: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:41:55.136384: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:41:55.144681: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:41:55.152977: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:41:55.167198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:41:55.172395: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:41:55.180668: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:41:55.189195: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:41:55.197493: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:41:55.202888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:41:55.211203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:41:55.219545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:41:55.246102: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:41:55.261250: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:41:55.269578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:41:55.277911: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:41:55.286238: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:41:55.294567: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:41:55.302907: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:41:55.312548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:41:55.320823: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:41:55.329298: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:41:55.337545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:41:55.345878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:41:58.213891: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:41:58.240809: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:41:58.308434: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:41:58.323114: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:41:58.416633: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:41:58.482023: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:41:58.545935: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:41:58.585932: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:41:58.623957: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:41:58.678361: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:41:59.503024: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:41:59.552094: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:41:59.562550: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:41:59.577656: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:41:59.585731: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:41:59.594059: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:41:59.616918: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:41:59.621808: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:41:59.621871: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:41:59.626738: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:41:59.635889: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:41:59.635920: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:41:59.707464: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:41:59.736039: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:41:59.736056: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:41:59.824811 140153760069376 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.129798). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:41:59.844054 139914383845120 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.103354). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:41:59.866409 140507203233536 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.172791). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:41:59.885807 139801251968768 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.126983). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:41:59.978561 140046174791424 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.127870). Check your callbacks.
+2019-05-27 21:43:47.312854: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:43:47.316298: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:43:47.330212: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:43:47.338798: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:43:47.367723: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:43:47.391440: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55daff369b00 executing computations on platform Host. Devices:
+2019-05-27 21:43:47.391459: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:43:47.377796: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:43:47.383226: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56548df9c080 executing computations on platform Host. Devices:
+2019-05-27 21:43:47.441249: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:43:47.401862: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:43:47.429051: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56273051dcb0 executing computations on platform Host. Devices:
+2019-05-27 21:43:47.458065: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:43:47.463010: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:43:47.469221: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:43:47.469840: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:43:47.472739: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:43:47.491821: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55aae651da10 executing computations on platform Host. Devices:
+2019-05-27 21:43:47.491854: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:43:47.503422: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:43:47.531774: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:43:47.545288: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:43:47.545816: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5647a9261c00 executing computations on platform Host. Devices:
+2019-05-27 21:43:47.545836: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:43:47.556896: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:43:53.947674: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55daff418900 executing computations on platform CUDA. Devices:
+2019-05-27 21:43:53.947710: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56548e040090 executing computations on platform CUDA. Devices:
+2019-05-27 21:43:53.949711: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5647a92e7650 executing computations on platform CUDA. Devices:
+2019-05-27 21:43:53.969292: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5627305c72b0 executing computations on platform CUDA. Devices:
+2019-05-27 21:43:53.969311: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55aae65a3480 executing computations on platform CUDA. Devices:
+2019-05-27 21:43:53.973845: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:43:53.982193: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:43:53.990560: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:43:53.998859: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:43:54.007208: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:43:54.019315: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:43:54.025033: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:43:54.033531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:43:54.041693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:43:54.070927: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:43:54.082222: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:43:54.090568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:43:54.098914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:43:54.107250: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:43:54.115572: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:43:54.123995: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:43:54.132320: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:43:54.140659: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:43:54.149000: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:43:54.157316: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:43:54.168523: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:43:54.176831: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:43:54.185146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:43:54.194918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:43:54.201834: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:43:54.207223: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:43:54.215559: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:43:54.223892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:43:54.232204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:43:54.240550: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:43:54.248840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:43:54.257204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:43:54.265561: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:43:54.273878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:43:54.282197: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:43:54.292454: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:43:54.321497: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:43:54.333563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:43:54.341878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:43:54.350229: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:43:57.202864: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:43:57.273855: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:43:57.428628: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:43:57.481525: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:43:57.520820: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:43:57.579978: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:43:57.687831: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:43:57.704431: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:43:57.811391: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:43:57.972920: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:43:58.580381: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:43:58.607039: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:43:58.607078: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:43:58.638855: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:43:58.648692: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:43:58.648744: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:43:58.723359: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:43:58.780210: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:43:58.780261: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:43:59.071680: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:43:59.081908: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:43:59.081951: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:43:59.084865: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:43:59.090118: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:43:59.090140: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:45:45.718017: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:45:45.723955: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:45:45.732873: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:45:45.733606: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55cbbd65efe0 executing computations on platform Host. Devices:
+2019-05-27 21:45:45.793156: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:45:45.796375: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:45:45.801984: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x565321098a70 executing computations on platform Host. Devices:
+2019-05-27 21:45:45.802005: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:45:45.805997: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:45:45.813601: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:45:45.920302: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:45:45.982228: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:45:45.982623: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56430f032d00 executing computations on platform Host. Devices:
+2019-05-27 21:45:45.982638: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:45:45.994624: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:45:46.356452: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:45:46.392083: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:45:46.392401: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5649b22b74e0 executing computations on platform Host. Devices:
+2019-05-27 21:45:46.392414: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:45:46.403822: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:45:46.411691: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:45:46.444240: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:45:46.444722: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5560260b3940 executing computations on platform Host. Devices:
+2019-05-27 21:45:46.444742: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:45:46.455613: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:45:52.351789: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55602615da70 executing computations on platform CUDA. Devices:
+2019-05-27 21:45:52.352136: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:45:52.354312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:45:52.354354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:45:52.354452: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:45:52.358879: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x565321147400 executing computations on platform CUDA. Devices:
+2019-05-27 21:45:52.358894: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56430f0d71e0 executing computations on platform CUDA. Devices:
+2019-05-27 21:45:52.360608: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:45:52.363542: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5649b23665d0 executing computations on platform CUDA. Devices:
+2019-05-27 21:45:52.417353: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:45:52.375095: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55cbbd6f2eb0 executing computations on platform CUDA. Devices:
+2019-05-27 21:45:52.392558: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:45:52.400739: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:45:52.409060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:45:52.418174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:45:52.425801: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:45:52.434939: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:45:52.443660: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:45:52.450780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:45:52.459115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:45:52.468168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:45:52.475747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:45:52.484111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:45:52.493599: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:45:52.500850: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:45:52.529462: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:45:52.542679: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:45:52.550897: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:45:52.575894: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:45:52.592825: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:45:52.592938: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:45:52.595372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:45:52.604933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:45:52.609044: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:45:52.617390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:45:52.625767: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:45:52.634102: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:45:52.642434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:45:52.650766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:45:52.659097: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:45:52.667428: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:45:52.677209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:45:52.685515: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:45:52.693862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:45:52.702577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:45:55.435190: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:45:55.539684: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:45:55.644923: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:45:55.674672: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:45:55.681358: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:45:55.745672: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:45:55.814225: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:45:55.965743: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:45:55.969004: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:45:55.977918: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:45:56.795863: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:45:56.843968: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:45:56.844028: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:45:56.933058: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:45:56.948262: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:45:56.960275: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:45:56.968656: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:45:57.001746: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:45:57.010012: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:45:57.015577: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:45:57.021601: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:45:57.049439 140250520733440 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.112912). Check your callbacks.
+2019-05-27 21:45:57.068609: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:45:57.076987: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:45:57.093357: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:45:57.128546: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:45:57.303080 140083331929856 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.176371). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:45:57.331881 140044512753408 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.182705). Check your callbacks.
+W0527 21:45:57.340970 140083331929856 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.104976). Check your callbacks.
+W0527 21:45:57.373991 140044512753408 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.112517). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:45:57.465062 139643104257792 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.213951). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:45:57.497939 140537466771200 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.225479). Check your callbacks.
+W0527 21:45:57.508313 139643104257792 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.146737). Check your callbacks.
+W0527 21:45:57.518826 140537466771200 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.173818). Check your callbacks.
+2019-05-27 21:47:43.760492: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:47:43.803410: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:47:43.803888: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55e8bd27d350 executing computations on platform Host. Devices:
+2019-05-27 21:47:43.803950: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:47:43.815893: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:47:44.648050: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:47:44.670002: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:47:44.678153: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:47:44.701884: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:47:44.715238: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:47:44.732803: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:47:44.740806: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:47:44.748709: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5591fa67daf0 executing computations on platform Host. Devices:
+2019-05-27 21:47:44.749482: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:47:44.757131: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x562b62cac5e0 executing computations on platform Host. Devices:
+2019-05-27 21:47:44.789767: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:47:44.765465: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x557b18f181f0 executing computations on platform Host. Devices:
+2019-05-27 21:47:44.773162: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:47:44.782045: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x564969c6ce50 executing computations on platform Host. Devices:
+2019-05-27 21:47:44.798191: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:47:44.801349: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:47:44.814876: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:47:44.823805: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:47:44.839907: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:47:44.878243: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:47:50.179611: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x557b18f9dc60 executing computations on platform CUDA. Devices:
+2019-05-27 21:47:50.206349: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5591fa703550 executing computations on platform CUDA. Devices:
+2019-05-27 21:47:50.214273: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:47:50.222584: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:47:50.273585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:47:50.274479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:47:50.280890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:47:50.283437: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x562b62d566e0 executing computations on platform CUDA. Devices:
+2019-05-27 21:47:50.283451: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x564969d116c0 executing computations on platform CUDA. Devices:
+2019-05-27 21:47:50.283699: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55e8bd32be00 executing computations on platform CUDA. Devices:
+2019-05-27 21:47:50.289232: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:47:50.297677: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:47:50.305865: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:47:50.314250: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:47:50.322604: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:47:50.330968: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:47:50.342281: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:47:50.350641: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:47:50.357131: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:47:50.365684: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:47:50.375550: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:47:50.380855: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:47:50.389238: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:47:50.397594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:47:50.405933: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:47:50.438016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:47:50.447611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:47:50.456001: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:47:50.464476: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:47:50.472725: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:47:50.480936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:47:50.493053: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:47:50.500454: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:47:50.508736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:47:50.517075: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:47:50.523900: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:47:50.539265: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:47:50.547595: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:47:50.555899: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:47:50.572543: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:47:50.580902: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:47:50.589240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:47:50.598878: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:47:50.607015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:47:50.615628: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:47:53.352187: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:47:53.428241: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:47:53.507329: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:47:53.563782: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:47:53.716963: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:47:53.748018: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:47:53.756017: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:47:53.851553: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:47:53.902809: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:47:54.144656: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:47:54.618487: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:47:54.647496: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:47:54.647543: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:47:54.696116: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:47:54.705773: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:47:54.705818: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:47:54.794888: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:47:54.805633: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:47:54.805663: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:47:54.823107: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:47:54.838999: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:47:54.839037: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:47:55.051834 140012254369536 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.120046). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:47:55.081776 140420598343424 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.123654). Check your callbacks.
+2019-05-27 21:47:55.154529: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:47:55.163814: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:47:55.163839: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:49:44.839901: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:49:44.890042: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:49:44.890372: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x562dff1265e0 executing computations on platform Host. Devices:
+2019-05-27 21:49:44.890395: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:49:44.908931: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:49:44.944006: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:49:45.030464: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:49:45.030761: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5582aa3647d0 executing computations on platform Host. Devices:
+2019-05-27 21:49:45.030775: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:49:45.044778: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:49:45.058777: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:49:45.089093: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:49:45.089404: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x557a300fb460 executing computations on platform Host. Devices:
+2019-05-27 21:49:45.089417: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:49:45.108925: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:49:45.109275: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:49:45.123549: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:49:45.123869: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x561ec70ca660 executing computations on platform Host. Devices:
+2019-05-27 21:49:45.123887: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:49:45.134955: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:49:45.178635: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:49:45.188556: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:49:45.188924: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55747af014c0 executing computations on platform Host. Devices:
+2019-05-27 21:49:45.188942: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:49:45.200113: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:49:51.116340: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x557a301aa0c0 executing computations on platform CUDA. Devices:
+2019-05-27 21:49:51.116282: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x562dff1cfd20 executing computations on platform CUDA. Devices:
+2019-05-27 21:49:51.132392: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:49:51.138986: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x561ec7179600 executing computations on platform CUDA. Devices:
+2019-05-27 21:49:51.139057: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x5582aa413640 executing computations on platform CUDA. Devices:
+2019-05-27 21:49:51.139066: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55747af95820 executing computations on platform CUDA. Devices:
+2019-05-27 21:49:51.140737: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:49:51.150448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:49:51.157441: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:49:51.165811: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:49:51.174147: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:49:51.206261: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:49:51.215807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:49:51.227866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:49:51.233989: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:49:51.241545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:49:51.249178: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:49:51.257729: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:49:51.265908: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:49:51.274186: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:49:51.282511: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:49:51.291033: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:49:51.306580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:49:51.307680: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:49:51.316009: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:49:51.324336: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:49:51.337950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:49:51.340818: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:49:51.352114: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:49:51.365930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:49:51.368760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:49:51.374156: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:49:51.382448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:49:51.390828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:49:51.399147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:49:51.407503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:49:51.438216: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:49:51.450696: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:49:51.457524: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:49:51.465854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:49:51.474191: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:49:51.483922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:49:51.521738: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:49:51.522840: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:49:51.523905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:49:54.311233: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:49:54.381680: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:49:54.382459: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:49:54.540037: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:49:54.646020: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:49:54.652717: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:49:54.703090: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:49:54.792612: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:49:54.878213: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:49:55.076144: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:49:55.685890: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:49:55.731520: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:49:55.731578: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:49:55.741156: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:49:55.771804: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:49:55.771861: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:49:55.775533: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:49:55.790562: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:49:55.790601: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:49:55.927897 140426693547776 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.109696). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:49:55.970962 140369614522112 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.106922). Check your callbacks.
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:49:56.001029 140543047747328 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.106592). Check your callbacks.
+2019-05-27 21:49:56.020423: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:49:56.023880: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:49:56.023913: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:49:56.114922: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:49:56.132170: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:49:56.132199: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:51:43.118584: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:51:43.145646: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:51:43.146012: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x563a71f6e070 executing computations on platform Host. Devices:
+2019-05-27 21:51:43.146053: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:51:43.173280: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:51:43.183415: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:51:43.224365: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:51:43.235279: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x557b75b46d10 executing computations on platform Host. Devices:
+2019-05-27 21:51:43.235300: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:51:43.246493: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:51:43.259336: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:51:43.276727: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:51:43.277044: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55ff153e0830 executing computations on platform Host. Devices:
+2019-05-27 21:51:43.277060: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:51:43.295266: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:51:43.310621: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:51:43.322674: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-27 21:51:43.345286: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:51:43.358082: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3399995000 Hz
+2019-05-27 21:51:43.360468: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55ac11fd0970 executing computations on platform Host. Devices:
+2019-05-27 21:51:43.368806: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x56258839c990 executing computations on platform Host. Devices:
+2019-05-27 21:51:43.385044: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:51:43.376685: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-27 21:51:43.399044: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:51:43.403959: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2019-05-27 21:51:49.690006: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x563a7201cd20 executing computations on platform CUDA. Devices:
+2019-05-27 21:51:49.693306: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x557b75bf58b0 executing computations on platform CUDA. Devices:
+2019-05-27 21:51:49.700810: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55ac1207a920 executing computations on platform CUDA. Devices:
+2019-05-27 21:51:49.707070: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x55ff154793f0 executing computations on platform CUDA. Devices:
+2019-05-27 21:51:49.708953: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x562588440f40 executing computations on platform CUDA. Devices:
+2019-05-27 21:51:49.751040: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:51:49.717694: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:51:49.726028: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:51:49.734356: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:51:49.742651: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2019-05-27 21:51:49.752120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0e:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:51:49.760730: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0d:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:51:49.768866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0b:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:51:49.777407: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0f:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:51:49.785797: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1467] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:0c:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-05-27 21:51:49.792721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:51:49.801007: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:51:49.809415: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:51:49.839263: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:51:49.851080: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1546] Adding visible gpu devices: 0
+2019-05-27 21:51:49.859605: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:51:49.867840: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:51:49.876198: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:51:49.884608: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:51:49.892819: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2019-05-27 21:51:49.908794: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:51:49.914072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:51:49.920573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:51:49.929098: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:51:49.937336: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1015] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-27 21:51:49.942715: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:51:49.951072: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:51:49.959389: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:51:49.967671: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:51:49.976020: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1021]      0 
+2019-05-27 21:51:49.984377: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:51:49.992711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:51:50.001027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:51:50.009373: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:51:50.017672: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1034] 0:   N 
+2019-05-27 21:51:50.027430: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0e:00.0, compute capability: 6.1)
+2019-05-27 21:51:50.035737: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0d:00.0, compute capability: 6.1)
+2019-05-27 21:51:50.044104: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0b:00.0, compute capability: 6.1)
+2019-05-27 21:51:50.052353: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0f:00.0, compute capability: 6.1)
+2019-05-27 21:51:50.060687: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1149] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10481 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+2019-05-27 21:51:52.855906: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:51:52.951406: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:51:53.009146: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:51:53.174588: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:51:53.200547: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:51:53.272349: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:51:53.321263: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:51:53.478681: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2019-05-27 21:51:53.573108: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:51:53.760265: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2019-05-27 21:51:54.130922: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:51:54.159362: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:51:54.159419: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:51:54.171093: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:51:54.175724: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:51:54.175746: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+WARNING: Logging before flag parsing goes to stderr.
+W0527 21:51:54.385689 139638016431872 callbacks.py:236] Method (on_train_batch_end) is slow compared to the batch update (0.100173). Check your callbacks.
+2019-05-27 21:51:54.442943: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:51:54.458474: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:51:54.458520: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:51:54.535440: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:51:54.558362: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:51:54.558387: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
+2019-05-27 21:51:54.904530: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profile Session started.
+2019-05-27 21:51:54.937904: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Could not dlopen library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory
+2019-05-27 21:51:54.937934: E tensorflow/core/platform/default/device_tracer.cc:144] Failed to initialize CUPTI: 999
