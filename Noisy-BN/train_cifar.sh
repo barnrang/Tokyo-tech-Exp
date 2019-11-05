@@ -4,7 +4,7 @@ p=1.0
 train_size=5000
 
 run_training() {
-    python train.py --dataset cifar --alpha $1 --suffix $2 --epochs $3 --p $4 --gpu $5 --train_size $train_size
+    python train.py --dataset cifar --alpha $3 --suffix $2 --epochs $3 --p $4 --gpu $5 --train_size $train_size --small
 }
 
 > err.txt # Clear err.txt
