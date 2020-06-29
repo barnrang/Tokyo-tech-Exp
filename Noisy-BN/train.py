@@ -8,11 +8,12 @@ def parser():
     parser.add_argument('--p', dest='p', type=float, default=0.25)
     parser.add_argument('--suffix', dest='suffix')
     parser.add_argument('--epochs', dest='epochs', type=int)
+    parser.add_argument('--seed', dest='seed', type=int, default=0)
     parser.add_argument('--gpu', dest='gpu', type=int, default=0)
-    parser.add_argument('--train_size', dest='train_size', type=int, default=None)
-    parser.add_argument('--small', dest='small', const=True, 
+    parser.add_argument('--train_size', dest='train_size', type=int, default=5000)
+    parser.add_argument('--small', dest='small', const=True,
                         action='store_const', default=False)
-    parser.add_argument('--no_save', dest='no_save', const=True, 
+    parser.add_argument('--no_save', dest='no_save', const=True,
                         action='store_const', default=False)
 
     return parser.parse_args()
@@ -30,14 +31,23 @@ import pickle
 #config.gpu_options.allow_growth = True
 #session = InteractiveSession(config=config)
 
+import numpy as np
+np.random.seed(args.seed)
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.utils import to_categorical
-import numpy as np
 import matplotlib.pyplot as plt
 from layers.noisy_bn import NoisyBatchNormalization
 
+for i in range(10):
+    perm_idx = np.random.permutation(len(idxs_per_class[i]))
+    x_train_small.extend(x_train[idxs_per_class[i][perm_idx[:train_size_per_class]]])
+    x_val.extend(x_train[idxs_per_class[i][perm_idx[train_size_per_class:train_size_per_class + val_size_per_class]]])
+    y_train_small.extend(y_train[idxs_per_class[i][perm_idx[:train_size_per_class]]])
+    y_val.extend(y_train[idxs_per_class[i][perm_idx[train_size_per_class:train_size_per_class + val_size_per_class]]])
 
+x_train_small = np.array(x_train_small)
+x_val = np.array(x_val)
 
 def create_folder(name):
     '''
@@ -55,30 +65,55 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
 
         fashion_mnist = keras.datasets.fashion_mnist
 
-        (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
+        (x_train, y_train), (x_test, y_test) = mnist.load_data()
+        y_train = np.squeeze(y_train)
+        y_test = np.squeeze(y_test)
 
-        train_images = np.expand_dims(train_images, axis=-1)
-        test_images = np.expand_dims(test_images, axis=-1)
+        x_train = np.expand_dims(x_train, -1)
+        x_test = np.expand_dims(x_test, -1)
 
-        train_images, train_labels = cut_data(train_size, train_images, train_labels)
+        idx = np.argsort(y_train)
+        x_train = x_train[idx]
+        y_train = y_train[idx]
+
+        idxs_per_class = [np.squeeze(np.argwhere(y_train == i)) for i in range(10)]
+
+        train_size_per_class = args.train_size
+        val_size_per_class = 5000
+
+        x_train_small = []
+        y_train_small = []
+
+        x_val = []
+        y_val = []
+
+
+        for i in range(10):
+            perm_idx = np.random.permutation(len(idxs_per_class[i]))
+            x_train_small.extend(x_train[idxs_per_class[i][perm_idx[:train_size_per_class]]])
+            x_val.extend(x_train[idxs_per_class[i][perm_idx[train_size_per_class:train_size_per_class + val_size_per_class]]])
+            y_train_small.extend(y_train[idxs_per_class[i][perm_idx[:train_size_per_class]]])
+            y_val.extend(y_train[idxs_per_class[i][perm_idx[train_size_per_class:train_size_per_class + val_size_per_class]]])
+
+        x_train_small = np.array(x_train_small)
+        x_val = np.array(x_val)
 
         train_datagen = keras.preprocessing.image.ImageDataGenerator(
-            featurewise_center = True,
-            featurewise_std_normalization = True,
+            rescale=1./255.,
             horizontal_flip=True,)
+        val_datagen = keras.preprocessing.image.ImageDataGenerator(rescale=1./255.)
 
-        val_datagen = keras.preprocessing.image.ImageDataGenerator(
-            featurewise_center = True,
-            featurewise_std_normalization = True)
+        #val_datagen = keras.preprocessing.image.ImageDataGenerator(
+        #    featurewise_center = True,
+        #    featurewise_std_normalization = True)
 
-        train_datagen.fit(train_images)
-        # val_datagen = keras.preprocessing.image.ImageDataGenerator(rescale=1./255.)
+        #train_datagen.fit(train_images)
 
-        val_datagen.mean = train_datagen.mean
-        val_datagen.std = train_datagen.std
+        #val_datagen.mean = train_datagen.mean
+        #val_datagen.std = train_datagen.std
 
-        train_gen = train_datagen.flow(train_images, to_categorical(train_labels), batch_size=100)
-        val_gen = val_datagen.flow(test_images, to_categorical(test_labels), shuffle=False, batch_size=100)
+        train_gen = train_datagen.flow(x_train_small, to_categorical(y_train_small), batch_size=32)
+        val_gen = val_datagen.flow(x_val, to_categorical(y_val), shuffle=False, batch_size=32)
 
         if kwargs['small']:
             from models.fashion_mnist import get_small_model
@@ -88,13 +123,36 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
             model = get_model(alpha=alpha, p=p)
 
     if dataset == 'cifar':
-        (train_images, train_labels), (test_images, test_labels) = keras.datasets.cifar10.load_data()
+        (x_train, y_train), (x_test, y_test) = keras.datasets.cifar10.load_data()
+        y_train = np.squeeze(y_train)
+        y_test = np.squeeze(y_test)
 
-        train_images, train_labels = cut_data(train_size, train_images, train_labels)
+        idx = np.argsort(y_train)
+        x_train = x_train[idx]
+        y_train = y_train[idx]
+
+        idxs_per_class = [np.squeeze(np.argwhere(y_train == i)) for i in range(10)]
+
+        train_size_per_class = args.train_size
+        val_size_per_class = 5000
+
+        x_train_small = []
+        y_train_small = []
+
+        x_val = []
+        y_val = []
+        for i in range(10):
+            perm_idx = np.random.permutation(len(idxs_per_class[i]))
+            x_train_small.extend(x_train[idxs_per_class[i][perm_idx[:train_size_per_class]]])
+            x_val.extend(x_train[idxs_per_class[i][perm_idx[train_size_per_class:train_size_per_class + val_size_per_class]]])
+            y_train_small.extend(y_train[idxs_per_class[i][perm_idx[:train_size_per_class]]])
+            y_val.extend(y_train[idxs_per_class[i][perm_idx[train_size_per_class:train_size_per_class + val_size_per_class]]])
+
+        x_train_small = np.array(x_train_small)
+        x_val = np.array(x_val)
 
         train_datagen = keras.preprocessing.image.ImageDataGenerator(
-            featurewise_center=True,  # set input mean to 0 over the dataset
-            featurewise_std_normalization=True,  # divide inputs by std of the dataset
+            rescale=1./255.,
             rotation_range=10,  # randomly rotate images in the range (degrees, 0 to 180)
             # randomly shift images horizontally (fraction of total width)
             width_shift_range=0.1,
@@ -111,16 +169,18 @@ def main(dataset, alpha, p, suffix, epochs, train_size, **kwargs):
             # set rescaling factor (applied before any other transformation)
             rescale=None)
 
-        val_datagen = keras.preprocessing.image.ImageDataGenerator(
-            featurewise_center=True,  # set input mean to 0 over the dataset
-            featurewise_std_normalization=True,) # divide inputs by std of the dataset
+        val_datagen = keras.preprocessing.image.ImageDataGenerator(rescale=1./255.)
 
-        train_datagen.fit(train_images)
-        val_datagen.mean = train_datagen.mean
-        val_datagen.std = train_datagen.std
+        #val_datagen = keras.preprocessing.image.ImageDataGenerator(
+        #    featurewise_center=True,  # set input mean to 0 over the dataset
+        #    featurewise_std_normalization=True,) # divide inputs by std of the dataset
 
-        train_gen = train_datagen.flow(train_images, to_categorical(train_labels), batch_size=32)
-        val_gen = val_datagen.flow(test_images, to_categorical(test_labels), shuffle=False, batch_size=32)
+        #train_datagen.fit(train_images)
+        #val_datagen.mean = train_datagen.mean
+        #val_datagen.std = train_datagen.std
+
+        train_gen = train_datagen.flow(x_train_small, to_categorical(y_train_small), batch_size=32)
+        val_gen = val_datagen.flow(x_val, to_categorical(y_val), shuffle=False, batch_size=32)
 
         if kwargs['small']:
             from models.CIFAR10 import get_small_model

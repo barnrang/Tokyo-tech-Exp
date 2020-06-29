@@ -23,7 +23,7 @@ from tensorflow.keras.layers import Input, Conv2D
 from tensorflow.keras.layers import Add
 from tensorflow.keras.utils import convert_all_kernels_in_model
 from tensorflow.keras.utils import get_file, get_source_inputs
-# from tensorflow.keras.engine.topology import 
+# from tensorflow.keras.engine.topology import
 # from tensorflow.keras_applications.imagenet_utils import _obtain_input_shape
 import tensorflow.keras.backend as K
 
@@ -44,12 +44,15 @@ def get_small_model(alpha=0., p=0.25, clear_session=True):
     feature_layers = [
         keras.layers.Conv2D(64,(2,2),padding='valid',activation='relu',input_shape=(32,32,3)),
         BetterNoisyBatchNormalization(alpha,p),
+        keras.layers.MaxPooling2D(),
+        keras.layers.Conv2D(128,(2,2),padding='valid',activation='relu',
+        BetterNoisyBatchNormalization(alpha,p),
         keras.layers.Flatten()
     ]
 
     classify_layer = [
         keras.layers.Dense(128,activation='relu'),
-        BetterNoisyBatchNormalization(alpha,p), 
+        BetterNoisyBatchNormalization(alpha,p),
         keras.layers.Dense(10,activation='softmax')
     ]
 
